@@ -1,0 +1,18 @@
+2018-11-15 13:57:54,951 [DEBUG]: Starting preparations before tests
+2018-11-15 13:57:54,952 [DEBUG]: ========== Start test: test_get_single_user ==========
+2018-11-15 13:57:54,952 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/1
+2018-11-15 13:57:55,666 [DEBUG]: Got response: status code 200 {"data":{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"}}
+2018-11-15 13:57:55,667 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/2
+2018-11-15 13:57:56,093 [DEBUG]: Got response: status code 200 {"data":{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}}
+2018-11-15 13:57:56,093 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/3
+2018-11-15 13:57:56,792 [DEBUG]: Got response: status code 200 {"data":{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}}
+2018-11-15 13:57:56,793 [DEBUG]: ========== Finish test: test_get_single_user ==========
+2018-11-15 13:57:56,793 [DEBUG]: ========== Start test: test_get_users ==========
+2018-11-15 13:57:56,793 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users
+2018-11-15 13:57:57,719 [DEBUG]: Got response: status code 200 {"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+2018-11-15 13:57:57,719 [DEBUG]: ========== Finish test: test_get_users ==========
+2018-11-15 13:57:57,719 [DEBUG]: Starting cleanup_after_tests

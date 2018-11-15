@@ -1,0 +1,23 @@
+2018-11-15 13:59:16,527 [DEBUG]: Starting preparations before tests
+2018-11-15 13:59:16,527 [DEBUG]: ========== Start test: test_get_invalid_user ==========
+2018-11-15 13:59:16,527 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/5
+2018-11-15 13:59:17,484 [DEBUG]: Got response: status code 200 {"data":{"id":5,"first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"}}
+2018-11-15 13:59:17,485 [DEBUG]: ========== Finish test: test_get_invalid_user ==========
+2018-11-15 13:59:17,486 [DEBUG]: ========== Start test: test_get_single_user ==========
+2018-11-15 13:59:17,486 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/1
+2018-11-15 13:59:18,203 [DEBUG]: Got response: status code 200 {"data":{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"}}
+2018-11-15 13:59:18,203 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/2
+2018-11-15 13:59:18,919 [DEBUG]: Got response: status code 200 {"data":{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}}
+2018-11-15 13:59:18,919 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users/3
+2018-11-15 13:59:19,664 [DEBUG]: Got response: status code 200 {"data":{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}}
+2018-11-15 13:59:19,664 [DEBUG]: ========== Finish test: test_get_single_user ==========
+2018-11-15 13:59:19,664 [DEBUG]: ========== Start test: test_get_users ==========
+2018-11-15 13:59:19,665 [DEBUG]: Sending get request: 
+ url = https://reqres.in/api/users
+2018-11-15 13:59:20,222 [DEBUG]: Got response: status code 200 {"page":1,"per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}
+2018-11-15 13:59:20,222 [DEBUG]: ========== Finish test: test_get_users ==========
+2018-11-15 13:59:20,222 [DEBUG]: Starting cleanup_after_tests
