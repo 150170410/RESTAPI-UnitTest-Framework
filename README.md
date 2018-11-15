@@ -25,7 +25,6 @@ Library folder which will have couple of common functions. For example, 'data_ge
 Here you can find utility functions like loggers, suitemaker etc.  
 
 #### execution
-![Image of execution]
-(https://raw.githubusercontent.com/manojkken/RESTAPI-UnitTest-Framework/master/img/execution.png)
+![Image of execution](https://raw.githubusercontent.com/manojkken/RESTAPI-UnitTest-Framework/master/img/execution.png)
 
 
