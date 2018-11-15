@@ -26,6 +26,6 @@ Here you can find utility functions like loggers, suitemaker etc.
 
 #### execution
 ![Image of execution]
-(https://github.com/manojkken/RESTAPI-UnitTest-Framework/blob/master/img/execution.png)
+(https://raw.githubusercontent.com/manojkken/RESTAPI-UnitTest-Framework/master/img/execution.png)
 
 
