@@ -27,7 +27,6 @@ Here you can find utility functions like loggers, suitemaker etc.
 #### execution
 ![Image of execution](https://raw.githubusercontent.com/manojkken/RESTAPI-UnitTest-Framework/master/img/execution.png)
 
-
 ### License
 
 This project can be used, reproduced, distributed and modified freely for any non-commercial purposes but always keeping the author's name and copyright clauses. Other than that, just use this project as you wish but never sell it!
